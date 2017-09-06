@@ -11,10 +11,11 @@
 * FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
 * details.
 */
-
 import Foundation
 
-@objc public class WebScreenletConfiguration: NSObject {
+
+@objc(WebScreenletConfiguration)
+public class WebScreenletConfiguration: NSObject {
 
 	@objc public enum WebType: Int {
 		case liferayAuthenticated, other

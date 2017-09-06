@@ -14,8 +14,10 @@
 import UIKit
 import WebKit
 
+
 // swiftlint:disable weak_delegate
-@objc open class ScreensWKWebView: NSObject, ScreensWebView, WKNavigationDelegate, WKScriptMessageHandler,
+@objc(ScreensWKWebView)
+open class ScreensWKWebView: NSObject, ScreensWebView, WKNavigationDelegate, WKScriptMessageHandler,
 UIScrollViewDelegate {
 
 	let defaultNamespace = "screensDefault"
